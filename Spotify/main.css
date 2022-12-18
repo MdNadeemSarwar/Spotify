@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap");
+body {
+  background-color: rgb(242, 193, 193);
+}
+nav {
+  position: sticky;
+  top: 0;
+  font-family: "Varela Round", sans-serif;
+  /* font-family: 'Varela Round', sans-serif; */
+  /* font-size: 21px; */
+}
+nav ul {
+  
+  display: flex;
+  height: 70px;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  width: auto;
+  background-color: aquamarine;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-style: bold;
+  font-size: 20px;
+  /* position: sticky;
+  top: 1; */
+}
+.brand {
+  margin: 3px 10px 1px 1px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-style: bolder;
+}
+nav :hover {
+  color: rgb(13, 143, 8);
+}
+.brand img {
+  height: 70px;
+  font-family: "Varela Round", sans-serif;
+}
+.bottom {
+  height: 130px;
+  background-color: aqua;
+  color: aliceblue;
+  /* position: sticky;
+  bottom: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 14px;
+}
+.icons i {
+  cursor: pointer;
+}
+.containers {
+  min-height: 72vh;
+  background-color: rgb(98, 43, 43);
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("bgs.jpg");
+}
+#myprogressbar {
+  width: 80vw;
+  cursor: pointer;
+}
+.songItem{
+  display: flex;
+  height: 50px;
+  color: black;
+  background-color: white;
+  /* width: 110%; */
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+.songItem img{
+  width: 43px;
+  margin: 0 2px;
+  border-radius: 34px;
+}
+.timestamp{
+  margin: 0 23px;
+}
+.time i{
+  margin-right: 12px;
+  margin-left: 5px;
+  color: rgb(234, 13, 13);
+  cursor: pointer;
+}
+.songItemcontainer{
+  margin-top: 75px;
+}
+.songinfo{
+  position: absolute;
+  left: 10vw;
+  font-family: "Varela Round", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+.songinfo img{
+ opacity: 0; /* ye opacity 1 hoga to chalrga nahi agar opacit0 rahega to nahi chalega  */
+ transition:opacity 0.2s ease-in;  /*ye 0.2s jo hai wo utna late se image aayega or utha hi late se image gayega */
+}
